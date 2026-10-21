@@ -1,0 +1,16 @@
+---
+description: Shared tvOS development and delivery standards
+alwaysApply: true
+---
+
+# tvOS project rules
+
+Before making changes, read `AGENTS.md`, `TVOS-PRODUCT-DESIGN-BASELINE.md`,
+`TVOS-DESIGN-SYSTEM.md`, `TVOS-INTERACTION-SPEC.md`, and
+`TVOS-RELEASE-CHECKLIST.md` as relevant to the task.
+
+Respect the existing architecture and product design baseline. Keep changes
+minimal and purposeful. Design for Siri Remote focus navigation, page return,
+and loading/empty/error states. Run available builds and tests and report the
+actual commands and results. Never claim tests or device validation that were
+not actually performed.
